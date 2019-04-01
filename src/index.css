@@ -1,14 +1,185 @@
 body {
+  transform: 1s all;
+  transition: 1.5s ease;
   margin: 0;
+  font-family: "Raleway", sans-serif;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  text-align: center;
+}
+.page_dark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(17, 17, 17);
+  padding: 0;
+  height: 100vh;
+  margin: 0;
+  transform: 1s all;
+  transition: 1.5s ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.page_light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  height: 100vh;
+  margin: 0;
+  transform: 1s all;
+  transition: 1.5s ease;
+}
+
+/*              Card               */
+
+form {
+  text-align: center;
+}
+
+.mainTitle {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+}
+
+.card_dark {
+  transform: 1s all;
+  transition: 1.5s ease;
+  text-align: center;
+  background-color: rgb(25, 25, 25);
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  width: 18rem;
+  padding: 3rem 0.1rem;
+  box-shadow: 0px 2px 75px -86px rgb(0, 0, 0);
+}
+
+.card_light {
+  transform: 1s all;
+  transition: 1.5s ease;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  width: 18rem;
+  padding: 3rem 0.1rem;
+  box-shadow: 0px 2px 75px -35px rgb(111, 111, 111);
+}
+
+.frame {
+  border: #ff00f5;
+  border-style: solid;
+  margin-bottom: 2rem;
+  display: inline-flex;
+  border-width: 3px;
+  border-radius: 159px;
+}
+
+.profile {
+  padding: 5px;
+}
+
+.name_dark {
+  transform: 1s all;
+  transition: 1.5s ease;
+  color: #fff;
+  margin: 0px;
+}
+
+.name_light {
+  transform: 1s all;
+  transition: 1.5s ease;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+}
+
+.designation {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.6rem;
+  color: #9a9a9a;
+}
+
+.card-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.4rem;
+  padding: 0.9rem 1.6rem;
+  color: white;
+  border-radius: 13rem;
+  display: inline-block;
+  margin-top: 2rem;
+  background: linear-gradient(
+    to right,
+    rgba(255, 80, 10, 1) 0%,
+    rgba(238, 0, 255, 1) 100%
+  );
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff500a', endColorstr='#ee00ff', GradientType=1 );
+  box-shadow: rgb(255, 0, 0) 0px 0px 32px -7px;
+}
+
+/*              Toggle button               */
+
+.ToggleSet {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.toggle-btn01 {
+  outline: 0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  border: 0;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  border-radius: 0.4rem 0rem 0rem 0.4rem;
+}
+
+.toggle-btn02 {
+  outline: 0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  border: 0;
+  padding: 0.5rem 1rem;
+  color: rgb(236, 236, 236);
+  background-color: rgb(49, 49, 49);
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  border-radius: 0rem 0.4rem 0.4rem 0rem;
+}
+
+.comp {
+  z-index: 1;
+}
+
+h1 {
+  font-size: 10rem;
+  font-weight: 700;
+  position: fixed;
+  letter-spacing: 0rem;
+  left: 10%;
+  top: -7%;
+  color: #4242420d;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  position: fixed;
+  letter-spacing: 1rem;
+  left: 28%;
+  top: 1%;
+  color: #4242420d;
 }
