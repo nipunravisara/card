@@ -49,7 +49,7 @@ form {
   transform: 1s all;
   transition: 1.5s ease;
   text-align: center;
-  background-color: rgb(25, 25, 25);
+  background-color: rgb(59, 59, 59);
   border-radius: 1.5rem;
   margin: 0 auto;
   width: 18rem;
@@ -80,6 +80,8 @@ form {
 
 .profile {
   padding: 5px;
+  width: 8rem;
+  border-radius: 50%;
 }
 
 .name_dark {

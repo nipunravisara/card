@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import profile from "../assets/profile.png";
-import "../Index.css";
+import profile from "../assets/profile.jpg";
+import "../index.css";
 
 class card extends Component {
   render() {
@@ -11,9 +11,9 @@ class card extends Component {
             <img className="profile" src={profile} alt="profile" />
           </div>
           <div>
-            <h4 className={`name_${this.props.color}`}>Bethany Ava</h4>
+            <h4 className={`name_${this.props.color}`}>RavisaraDev</h4>
             <p className="designation">UI/UX Designer</p>
-            <a className="card-button" href="#">
+            <a className="card-button" target="_blank" href="https://twitter.com/ravisaradev">
               Follow
             </a>
             <div className="togggle" />
